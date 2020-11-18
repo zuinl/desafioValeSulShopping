@@ -11,7 +11,9 @@ Fiz uso do Figma para criar um layout base para Desktop (que também foi usado p
 
 Fiz uso do ReactJS para construção da tela e dos componentes da página.
 
-Para visualização e teste da aplicação, basta acessar a pasta "valesulmovies" usando o prompt de comando e digitar <code>
+Recomendo extrair a pasta "valesulmovies-api" antes de iniciar o processo do FrontEnd e deixá-la em local separado.
+
+Para visualização e teste da aplicação, basta acessar a pasta do projeto usando o prompt de comando e digitar <code>
 npm i</code> para a instalação das dependências.
 
 Após este processo, digite <code>code . && npm start</code>. Assim você poderá visualizar meu código e a aplicação abrirá no navegador.
@@ -22,6 +24,8 @@ IMPORTANTE: a aplicação apenas funcionará com qualidade se o BackEnd também 
 ## BackEnd
 
 Fiz uso do PHP para desenvolvimento da API que recebe as requisições de busca por filmes.
+
+Para dar início ao servidor local BackEnd, basta inserir a pasta "valesulmovies-api" no servidor Apache de sua máquina. Se certifique de que a API estará acessível em http://localhost/valesulmovies-api. Caso a URL seja diferente, altere a constante que se encontrar no arquivo "server.js" do projeto FrontEnd.
 
 Segue especificação do recurso.
 
